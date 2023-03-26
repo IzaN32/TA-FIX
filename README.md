@@ -28,3 +28,4 @@ enjoy developing!
 ### Release Notes
 Upcoming release here
 
+https://us06web.zoom.us/j/84985027637?pwd=eE40ak5wQytUTEtETzhKczZxOXo5QT09#success
