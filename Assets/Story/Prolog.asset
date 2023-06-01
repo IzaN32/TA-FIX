@@ -13,41 +13,208 @@ MonoBehaviour:
   m_Name: Prolog
   m_EditorClassIdentifier: 
   links:
+  - guid: 508998e2-a859-4297-b978-800b43da851a
+    targetGuid: 8062beb3-ada8-456a-872d-bb82898bc03d
+    portId: 0
+  - guid: 8062beb3-ada8-456a-872d-bb82898bc03d
+    targetGuid: 327bf140-5f96-4b2e-9ca7-045257b93f44
+    portId: 1
+  - guid: a06784ba-ca31-4905-8735-ccf8b2b8a7c5
+    targetGuid: 7767198f-f857-4cb0-b732-3de087eca349
+    portId: 2
+  - guid: 7767198f-f857-4cb0-b732-3de087eca349
+    targetGuid: 0b58a4bb-ac15-4dc6-b6b3-f85593fa008c
+    portId: 3
+  - guid: 0b58a4bb-ac15-4dc6-b6b3-f85593fa008c
+    targetGuid: 3b477e61-fc58-4a86-b982-52af218f1e2e
+    portId: 4
+  - guid: d7089b27-54af-425c-b755-62573383980f
+    targetGuid: bc54fcda-e2b4-4909-9110-598b3d81e496
+    portId: 5
+  - guid: 5959b5a4-437d-4715-b05b-f985dc260ed8
+    targetGuid: 112f97e9-ad57-4845-9f3f-a652e6e7a5f8
+    portId: 6
+  - guid: 112f97e9-ad57-4845-9f3f-a652e6e7a5f8
+    targetGuid: 9d2c6417-c0b9-432e-be3f-5c4c23c37d8b
+    portId: 7
+  - guid: 9d2c6417-c0b9-432e-be3f-5c4c23c37d8b
+    targetGuid: 508998e2-a859-4297-b978-800b43da851a
+    portId: 8
+  - guid: aedb6c30-1789-4c08-ae9c-e7c60fb984a1
+    targetGuid: 57460428-de3e-4ebe-991d-0d9a2c445aef
+    portId: 9
+  - guid: aedb6c30-1789-4c08-ae9c-e7c60fb984a1
+    targetGuid: d7089b27-54af-425c-b755-62573383980f
+    portId: 10
+  - guid: 70262126-62ee-4d0a-a6ed-0abb83e681e0
+    targetGuid: 5959b5a4-437d-4715-b05b-f985dc260ed8
+    portId: 11
+  - guid: 327bf140-5f96-4b2e-9ca7-045257b93f44
+    targetGuid: a06784ba-ca31-4905-8735-ccf8b2b8a7c5
+    portId: 12
+  - guid: 3b477e61-fc58-4a86-b982-52af218f1e2e
+    targetGuid: aedb6c30-1789-4c08-ae9c-e7c60fb984a1
+    portId: 13
+  - guid: 3b477e61-fc58-4a86-b982-52af218f1e2e
+    targetGuid: d624f180-321d-4e06-9ba6-529f7531e111
+    portId: 14
+  - guid: bc54fcda-e2b4-4909-9110-598b3d81e496
+    targetGuid: 87aec95c-83c1-48d7-a31d-0086ca4381d1
+    portId: 15
+  - guid: 87aec95c-83c1-48d7-a31d-0086ca4381d1
+    targetGuid: acd2baad-5493-4ed4-b6a0-f7ca06b04f0d
+    portId: 16
+  - guid: acd2baad-5493-4ed4-b6a0-f7ca06b04f0d
+    targetGuid: 9e1cad45-bd8c-453b-99a8-1f9dce3c5da4
+    portId: 17
   - guid: 910daacf-2ca8-43cd-a07b-60dd687e8402
     targetGuid: 70262126-62ee-4d0a-a6ed-0abb83e681e0
-    portId: 0
-  - guid: 70262126-62ee-4d0a-a6ed-0abb83e681e0
-    targetGuid: b017f00c-d6d5-4db9-a8b3-d3e0945b8658
-    portId: 1
-  - guid: b017f00c-d6d5-4db9-a8b3-d3e0945b8658
-    targetGuid: c53d7546-0fbc-4117-8173-3e3a0b4462c6
-    portId: 2
-  - guid: b017f00c-d6d5-4db9-a8b3-d3e0945b8658
-    targetGuid: a7e177cd-f76a-4ae8-b09b-bcd7e2fb50d7
-    portId: 3
+    portId: 18
   nodes:
-  - guid: 910daacf-2ca8-43cd-a07b-60dd687e8402
-    characterSpr: {fileID: 21300000, guid: e2141eaf2718f3a4bb79a61c89a03dc2, type: 3}
-    characterName: Kuromi Serika
-    dialogueText: Testing session
-    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
-    startNode: 1
+  - guid: d624f180-321d-4e06-9ba6-529f7531e111
+    characterSpr: {fileID: 21300000, guid: 1eee0584db912e04ebbec0a8ebde84bc, type: 3}
+    characterName: Warga yang kebetulan lewat
+    dialogueText: Jawaban anda salah! silahkan baca cerita lagi.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7348
+      y: 294
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d7089b27-54af-425c-b755-62573383980f
+    characterSpr: {fileID: 21300000, guid: 1eee0584db912e04ebbec0a8ebde84bc, type: 3}
+    characterName: Warga yang kebetulan lewat
+    dialogueText: 'Benar!
+
+
+      Ayo kita lanjutkan cerita.'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
     endNode: 0
     choices: 1
     choiceOptions:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 44
-      y: -202
+      x: 8007
+      y: -45
       width: 499
       height: 307
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+  - guid: 57460428-de3e-4ebe-991d-0d9a2c445aef
+    characterSpr: {fileID: 21300000, guid: 1eee0584db912e04ebbec0a8ebde84bc, type: 3}
+    characterName: Warga yang kebetulan lewat
+    dialogueText: Jawaban anda salah! silahkan baca cerita lagi.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8007
+      y: -528
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5959b5a4-437d-4715-b05b-f985dc260ed8
+    characterSpr: {fileID: 21300000, guid: ed033fb080f9c5447afc0ec601d22436, type: 3}
+    characterName: 
+    dialogueText: Akhirnya Raden Banyak catra pergi mengembara untuk mencari pendamping
+      hidup.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1179
+      y: -150
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 112f97e9-ad57-4845-9f3f-a652e6e7a5f8
+    characterSpr: {fileID: 21300000, guid: ed033fb080f9c5447afc0ec601d22436, type: 3}
+    characterName: 
+    dialogueText: Raden Banyak Catra menyamar sebagai rakyat jelata dan berganti
+      nama menjadi Kamandaka. Kamandaka pergi ke Pasir Luhur, sebuah Kadipaten yang
+      dipimpin oleh Adipati Kandhadhaha.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1734
+      y: -64
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 9d2c6417-c0b9-432e-be3f-5c4c23c37d8b
+    characterSpr: {fileID: 21300000, guid: ed033fb080f9c5447afc0ec601d22436, type: 3}
+    characterName: 
+    dialogueText: Kedatangannya ke Pasirluhur adalah untuk menemui Dewi Ciptarasa,
+      putri bungsu sang Adipati. Singkat cerita kemudian Kamandaka di angkat sebagai
+      anak oleh Reksanata, Patih Pasir Luhur.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2306
+      y: -56
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: aedb6c30-1789-4c08-ae9c-e7c60fb984a1
+    characterSpr: {fileID: 21300000, guid: 1eee0584db912e04ebbec0a8ebde84bc, type: 3}
+    characterName: Warga yang kebetulan lewat
+    dialogueText: 'Benar!
+
+
+      Lalu siapa nama sang Patih?'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - Patih Kandhadhaha
+    - Patih Reksananta
+    nodePosition:
+      serializedVersion: 2
+      x: 7348
+      y: -315
+      width: 499
+      height: 373
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
   - guid: 70262126-62ee-4d0a-a6ed-0abb83e681e0
-    characterSpr: {fileID: 21300000, guid: e2141eaf2718f3a4bb79a61c89a03dc2, type: 3}
-    characterName: Kuromi Serika
-    dialogueText: This is just test part 2
+    characterSpr: {fileID: 21300000, guid: 7680b6a15a6c2eb428e8af2b8dbb6e35, type: 3}
+    characterName: 
+    dialogueText: Dikisahkan saat itu Raden Banyak Catra  dipersiapkan untuk menggantikan
+      kedudukan ayahnya menjadi raja. Namun syarat untuk menjadi raja, Raden Banyak
+      Catra harus memiliki istri terlebih dahulu.
     backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
     startNode: 0
     endNode: 0
@@ -62,30 +229,11 @@ MonoBehaviour:
       height: 307
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
-  - guid: b017f00c-d6d5-4db9-a8b3-d3e0945b8658
-    characterSpr: {fileID: 21300000, guid: e2141eaf2718f3a4bb79a61c89a03dc2, type: 3}
-    characterName: Kuromi Serika
-    dialogueText: Please choose!
-    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 2
-    choiceOptions:
-    - Yes
-    - No
-    nodePosition:
-      serializedVersion: 2
-      x: 1164
-      y: -98
-      width: 499
-      height: 373
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: a7e177cd-f76a-4ae8-b09b-bcd7e2fb50d7
-    characterSpr: {fileID: 21300000, guid: db62a81ca9b2c504fb4dc09070daf3cf, type: 3}
-    characterName: Kuromi Serika
-    dialogueText: Get out!
-    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+  - guid: 9e1cad45-bd8c-453b-99a8-1f9dce3c5da4
+    characterSpr: {fileID: 21300000, guid: 1eee0584db912e04ebbec0a8ebde84bc, type: 3}
+    characterName: Warga yang kebetulan lewat
+    dialogueText: Nantikan kisah selanjutnya saat rilis yaa!
+    backgroundSpr: {fileID: 0}
     startNode: 0
     endNode: 1
     choices: 1
@@ -93,26 +241,227 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 1731
-      y: -298
+      x: 10769
+      y: -45
       width: 499
       height: 307
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
-  - guid: c53d7546-0fbc-4117-8173-3e3a0b4462c6
-    characterSpr: {fileID: 21300000, guid: e2141eaf2718f3a4bb79a61c89a03dc2, type: 3}
-    characterName: Kuromi Serika
-    dialogueText: Bye!
-    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+  - guid: 3b477e61-fc58-4a86-b982-52af218f1e2e
+    characterSpr: {fileID: 21300000, guid: 1eee0584db912e04ebbec0a8ebde84bc, type: 3}
+    characterName: Warga yang kebetulan lewat
+    dialogueText: 'Jawablah pertanyaan ini untuk melanjutkan cerita!
+
+      SIapa
+      nama asli Raden Kamandaka?'
+    backgroundSpr: {fileID: 0}
     startNode: 0
-    endNode: 1
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - Banyak Catra
+    - Banyak Blabur
+    nodePosition:
+      serializedVersion: 2
+      x: 6611
+      y: -13
+      width: 499
+      height: 373
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 062c53ba5e6f03e44ae717a028c7e4df, type: 3}
+  - guid: acd2baad-5493-4ed4-b6a0-f7ca06b04f0d
+    characterSpr: {fileID: 21300000, guid: 1eee0584db912e04ebbec0a8ebde84bc, type: 3}
+    characterName: Warga yang kebetulan lewat
+    dialogueText: Sampai sini dulu prolognya !
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
     choices: 1
     choiceOptions:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 1751
-      y: 157
+      x: 10126
+      y: -45
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 062c53ba5e6f03e44ae717a028c7e4df, type: 3}
+  - guid: 910daacf-2ca8-43cd-a07b-60dd687e8402
+    characterSpr: {fileID: 21300000, guid: dbf3c5ae2a71d6a4dbd47b8f195622c8, type: 3}
+    characterName: 
+    dialogueText: '  Kisah ini menceritakan tentang perjuangan Raden Banyak Catra,
+      putra Prabu Siliwangi Raja Pajajaran.'
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 43
+      y: -201
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 062c53ba5e6f03e44ae717a028c7e4df, type: 3}
+  - guid: 508998e2-a859-4297-b978-800b43da851a
+    characterSpr: {fileID: 21300000, guid: 089eb568e1e23844f8ef6575dc49fca7, type: 3}
+    characterName: 
+    dialogueText: Hasrat Raden Kamandaka untuk melihat wajah Putri Dewi Ciptarasa
+      dapat terkabul ketika Adipati Kandhadhaha mengadakan hiburan dengan mengadakan
+      penangkapan ikan di sungai secara beramai-ramai.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2934
+      y: -47
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8062beb3-ada8-456a-872d-bb82898bc03d
+    characterSpr: {fileID: 21300000, guid: 089eb568e1e23844f8ef6575dc49fca7, type: 3}
+    characterName: 
+    dialogueText: Pertemuan Raden Kamandaka dengan Dewi Ciptarasa berlanjut dengan
+      jalinan cinta. Suatui ketika Raden Kamandaka mengunjungi Dewi Ciptarasa di
+      Kadipaten Pasirluhur.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3545
+      y: -47
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 327bf140-5f96-4b2e-9ca7-045257b93f44
+    characterSpr: {fileID: 21300000, guid: 6fa75deb1e7277c4e8973082361e5e8a, type: 3}
+    characterName: 
+    dialogueText: Namun pertemuan itu dipergoki oleh kakak Ciptarasa. Bagi sang Adipati
+      Kandhadhaha, perbuatan Kamandaka telah mencoreng mukanya karena sebagai seorang
+      rakyat jelata bercengkrama dengan Putri Dewi Ciptarasa.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4170
+      y: -47
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 7843c3593f8ff154b8a187cd85e9b798, type: 3}
+  - guid: a06784ba-ca31-4905-8735-ccf8b2b8a7c5
+    characterSpr: {fileID: 21300000, guid: 6fa75deb1e7277c4e8973082361e5e8a, type: 3}
+    characterName: 
+    dialogueText: Kemudian Patih dipanggil oleh Adipati Kandhadhaha dan perintahkan
+      untuk membunuh Kamandaka. Sebagai seorang ayah, Patih Reksananta bingung untuk
+      melaksanakan tugas ini.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4739
+      y: -13
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 7767198f-f857-4cb0-b732-3de087eca349
+    characterSpr: {fileID: 21300000, guid: 1881f87258f511c499db230df80754dd, type: 3}
+    characterName: 
+    dialogueText: Raden Kamandaka dikekar-kejar oleh Prajurit Kadipaten, kemudian
+      Raden Kamandaka terjun ke sungai dan bersembunyi dalam gua di sungai itu.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5344
+      y: -13
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 0b58a4bb-ac15-4dc6-b6b3-f85593fa008c
+    characterSpr: {fileID: 21300000, guid: 1881f87258f511c499db230df80754dd, type: 3}
+    characterName: 
+    dialogueText: Para Prajurit Kadipaten melempari batu ke tempat Raden Kamandaka
+      menceburkan diri. Setela beberapa waktu tidak muncul, mereka mengira Raden
+      Kamandaka telah tewas tenggelam di sungai itu. Apalagi mereka melihat usus 
+      terapung di sungai, mereka mengira usus ayam yang terapung itu adalah ususnya
+      Raden Kamandaka.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5952
+      y: -13
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: bc54fcda-e2b4-4909-9110-598b3d81e496
+    characterSpr: {fileID: 21300000, guid: 1881f87258f511c499db230df80754dd, type: 3}
+    characterName: 
+    dialogueText: Para prajurit kemudian pulang untuk melaporkan kejadian itu kepada
+      Sang Adipati.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8653
+      y: -45
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 7843c3593f8ff154b8a187cd85e9b798, type: 3}
+  - guid: 87aec95c-83c1-48d7-a31d-0086ca4381d1
+    characterSpr: {fileID: 21300000, guid: 1881f87258f511c499db230df80754dd, type: 3}
+    characterName: 
+    dialogueText: "Sampai sekarang lubuk tempat Raden Kamandaka terjun dikenal dengan
+      anama \u201CKedhung Petaunan\u201D di sungai logawa, 3 Km sebelah Batrat Kota
+      Purwokerto."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 9417
+      y: -45
       width: 499
       height: 307
     soundEffect: {fileID: 0}
